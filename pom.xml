@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>info.magnolia.services</groupId>
   <artifactId>subscriber-rest-endpoint</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>subscriber-rest-endpoint Magnolia Module</name>
-  <description>subscriber-rest-endpoint Magnolia Module</description>
+  <name>Subscriber REST endpoint</name>
+  <description>A REST endpoint to easily configure subscribers in Magnolia</description>
 
   <scm>
     <url>https://github.com/nicolasbarbe/subscriber-rest-endpoint</url>
