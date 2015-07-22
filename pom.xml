@@ -9,9 +9,9 @@
   <description>A REST endpoint to easily configure subscribers in Magnolia</description>
 
   <scm>
-    <url>https://github.com/nicolasbarbe/subscriber-rest-endpoint</url>
-    <connection>scm:git:git://github.com:nicolasbarbe/subscriber-rest-endpoint.git</connection>
-    <developerConnection>scm:git:git@github.com:nicolasbarbe/subscriber-rest-endpoint.git</developerConnection>
+    <url>https://github.com/nicolasbarbe/magnolia-subscriber-rest-endpoint</url>
+    <connection>scm:git:git://github.com:nicolasbarbe/magnolia-subscriber-rest-endpoint.git</connection>
+    <developerConnection>scm:git:git@github.com:nicolasbarbe/magnolia-subscriber-rest-endpoint.git</developerConnection>
   </scm>
 
 
