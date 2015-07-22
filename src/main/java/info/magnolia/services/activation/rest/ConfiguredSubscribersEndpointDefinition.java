@@ -31,34 +31,23 @@
  * intact.
  *
  */
-package info.magnolia.activation.setup;
+package info.magnolia.services.activation.rest;
 
-import info.magnolia.module.DefaultModuleVersionHandler;
-import info.magnolia.module.InstallContext;
-import info.magnolia.module.delta.AddPermissionTask;
-import info.magnolia.module.delta.IsAuthorInstanceDelegateTask;
-import info.magnolia.module.delta.Task;
-
-import java.util.ArrayList;
-import java.util.List;
+import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 
 /**
- * This class is optional and lets you manager the versions of your module,
- * by registering "deltas" to maintain the module's configuration, or other type of content.
- * If you don't need this, simply remove the reference to this class in the module descriptor xml.
+ * Implementation of the subscriber REST endpoint definition.
  */
-public class SubscriberRestEndpointModuleVersionHandler extends DefaultModuleVersionHandler {
+public class ConfiguredSubscribersEndpointDefinition extends ConfiguredEndpointDefinition implements SubscribersEndpointDefinition {
 
-    @Override
-    protected List<Task> getExtraInstallTasks(InstallContext installContext) {
-        List<Task> tasks = new ArrayList<Task>();
+  private String subscriberTemplateName = "magnoliaPublic8080";
 
-        tasks.add(
-                new IsAuthorInstanceDelegateTask( "Only on author",
-                        new AddPermissionTask("Add permission", "Add permission to 'subscribers' rest endpoint for superuser",
-                                "superuser", "uri", "/.rest/subscribers/v1/*", 63, false)));
-        return tasks;
-    }
+  @Override
+  public String getSubscriberTemplateName() {
+    return this.subscriberTemplateName;
+  }
 
-
+  public void setSubscriberTemplateName(String subscriberTemplateName) {
+    this.subscriberTemplateName = subscriberTemplateName;
+  }
 }

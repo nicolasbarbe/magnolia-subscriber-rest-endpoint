@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package info.magnolia.activation;
+package info.magnolia.services.activation;
 
 /**
  * This class is optional and represents the configuration for the subscriber-rest-endpoint module.

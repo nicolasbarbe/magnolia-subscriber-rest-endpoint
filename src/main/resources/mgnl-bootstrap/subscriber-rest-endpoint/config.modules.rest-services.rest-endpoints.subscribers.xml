@@ -10,10 +10,10 @@
     <sv:value>9484e19d-4d27-40e0-9ce2-f3fdf9f00658</sv:value>
   </sv:property>
   <sv:property sv:name="class" sv:type="String">
-    <sv:value>info.magnolia.activation.rest.ConfiguredSubscribersEndpointDefinition</sv:value>
+    <sv:value>info.magnolia.services.activation.rest.ConfiguredSubscribersEndpointDefinition</sv:value>
   </sv:property>
   <sv:property sv:name="implementationClass" sv:type="String">
-    <sv:value>info.magnolia.activation.rest.SubscribersEndpoint</sv:value>
+    <sv:value>info.magnolia.services.activation.rest.SubscribersEndpoint</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:createdBy" sv:type="String">
     <sv:value>admin</sv:value>

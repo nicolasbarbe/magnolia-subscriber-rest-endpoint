@@ -4,8 +4,8 @@
   <name>subscriber-rest-endpoint</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>info.magnolia.activation.SubscriberRestEndpointModule</class>
-  <versionHandler>info.magnolia.activation.setup.SubscriberRestEndpointModuleVersionHandler</versionHandler>
+  <class>info.magnolia.services.activation.SubscriberRestEndpointModule</class>
+  <versionHandler>info.magnolia.services.activation.setup.SubscriberRestEndpointModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <dependencies>

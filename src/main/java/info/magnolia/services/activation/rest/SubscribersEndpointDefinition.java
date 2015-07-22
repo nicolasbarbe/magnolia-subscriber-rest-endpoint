@@ -31,7 +31,7 @@
  * intact.
  *
  */
-package info.magnolia.activation.rest;
+package info.magnolia.services.activation.rest;
 
 import info.magnolia.rest.EndpointDefinition;
 
